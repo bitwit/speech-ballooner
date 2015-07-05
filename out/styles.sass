@@ -1,0 +1,47 @@
+@import "compass"
+
+// Your base font-size in pixels
+$font-size: 16
+// Shorthand for outputting ems
+$em: $font-size / 1em
+
+
+body
+  margin: 0
+  padding: 60px 0 0 0
+  font-size: $font-size * 1px
+
+div.upper-area
+  height: 60/$em
+
+.sidebar-area
+  float: left
+  width: 15%
+  height: 100%
+  border-right: 1/$em solid #9A9A9A
+
+.work-area
+  float: right
+  width: 84%
+
+.visuals
+  position: relative
+
+#containment
+  float: left
+
+svg
+  border: 1px dashed #CCC
+
+#balloonControls
+  position: absolute
+  border: 1px dotted blue
+  width: 100px
+  height: 100px
+
+#tailControls
+  position: absolute
+  border: 1px dashed orange
+  width: 10px
+  height: 10px
+  transform: translate(-5px, -5px)
