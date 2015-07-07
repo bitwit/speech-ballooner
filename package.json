@@ -1,9 +1,8 @@
 {
   "name": "speech-ballooner",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "postinstall": "bower install",
     "serve": "node_modules/.bin/http-server -o ."
   },
   "devDependencies": {

@@ -51,7 +51,7 @@
       while (area.firstChild) {
         area.removeChild(area.firstChild);
       }
-      speech = new SpeechBubble(svg.canvasWidth, svg.canvasHeight, svg.text);
+      speech = new SpeechBallooner(svg.canvasWidth, svg.canvasHeight, svg.text);
       speech.tail = new Point(svg.tail.x, svg.tail.y);
       speech.balloon = new Rect(svg.balloon.x, svg.balloon.y, svg.balloon.width, svg.balloon.height);
       balloon = angular.element(speech.getSVG());

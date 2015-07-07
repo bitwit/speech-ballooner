@@ -1,16 +1,16 @@
 {
-  "name": "speech-bubbler",
+  "name": "speech-ballooner",
   "version": "0.0.0",
   "dependencies": {
+  },
+  "devDependencies": {
     "angular": "~1.4.0",
     "angular-sanitize": "~1.4.0",
     "angular-animate": "~1.4.0",
     "angular-touch": "~1.4.0",
     "bootstrap": "3.3.4",
     "angular-ui-bootstrap-bower": "~0.13.0",
-    "interact": "~1.2.4"
-  },
-  "devDependencies": {
+    "interact": "~1.2.4",
     "angular-mocks": "~1.4.0",
     "angular-scenario": "~1.4.0"
   },
